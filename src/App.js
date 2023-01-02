@@ -24,7 +24,7 @@ function App() {
         <Routes>
           <Route path="/">
             <Route index element={<Home />} />
-            <Route path="editor/:id" element={<EditorPage />} />
+            <Route path="editor/:roomId" element={<EditorPage />} />
           </Route>
         </Routes>
       </BrowserRouter>
